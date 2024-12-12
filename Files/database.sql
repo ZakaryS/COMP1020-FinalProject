@@ -134,3 +134,5 @@ SELECT COUNT(*) FROM vehicles WHERE make = 'Toyota';
 UPDATE owners SET address = '29 Rogers Rd', postal_code = 'M6E 1N5' WHERE owner_id = 1;
 
 INSERT INTO theft_reports (vehicle_id, theft_date, theft_location, reporting_authority, investigation_status)
+VALUES
+(16, 11, '2023-08-15', 'Toronto, ON', 'Toronto Police', 'Open');
