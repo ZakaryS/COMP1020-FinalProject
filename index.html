@@ -28,7 +28,7 @@
     function myFunction(xml) {
       var i;
       var xmlDoc = xml.responseXML;
-      var table="<tr><th>province_id</th><th>province_name</th><th>province_code</th><th>owner_id</th><th>name</th><th>address</th><th>city</th><th>postal_code</th><th>vehicle_id</th><th>vin</th><th>make</th><th>model</th><th>year</th></tr>";
+      var table="<tr><th>province_id</th><th>province_name</th><th>province_code</th><th>owner_id</th><th>owner_name</th><th>address</th><th>city</th><th>postal_code</th><th>vehicle_id</th><th>vin</th><th>make</th><th>model</th><th>year</th></tr>";
       var x = xmlDoc.getElementsByTagName("registration");
       for (i = 0; i <x.length; i++) {
         table += "<tr><td>" +
@@ -40,7 +40,7 @@
         "</td><td>" +
         x[i].getElementsByTagName("owner_id")[0].childNodes[0].nodeValue +
         "</td><td>" +
-        x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+        x[i].getElementsByTagName("owner_name")[0].childNodes[0].nodeValue +
         "</td><td>" +
         x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
         "</td><td>" +

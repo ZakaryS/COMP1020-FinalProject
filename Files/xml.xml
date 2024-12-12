@@ -5,7 +5,7 @@
         <province_name>Prince Edward Island</province_name>
         <province_code>PE</province_code>
         <owner_id>16</owner_id>
-        <name>Megan MacLeod</name>
+        <owner_name>Megan MacLeod</name>
         <address>26 Maloney Dr</address>
         <city>Charlottetown</city>
         <postal_code>C1A 2L6</postal_code>
@@ -20,7 +20,7 @@
         <province_name>Prince Edward Island</province_name>
         <province_code>PE</province_code>
         <owner_id>17</owner_id>
-        <name>Ryan MacKenzie</name>
+        <owner_name>Ryan MacKenzie</name>
         <address>126 Spring Park Rd</address>
         <city>Charlottetown</city>
         <postal_code>C1A 3Y6</postal_code>
@@ -35,7 +35,7 @@
         <province_name>Prince Edward Island</province_name>
         <province_code>PE</province_code>
         <owner_id>18</owner_id>
-        <name>Sandra MacDonald</name>
+        <owner_name>Sandra MacDonald</name>
         <address>9 Vail Dr</address>
         <city>Charlottetown</city>
         <province_id>9</province_id>
@@ -51,7 +51,7 @@
         <province_name>Prince Edward Island</province_name>
         <province_code>PE</province_code>
         <owner_id>19</owner_id>
-        <name>Michael Murphy</name>
+        <owner_name>Michael Murphy</name>
         <address>62 Kirkwood Dr</address>
         <city>Charlottetown</city>
         <province_id>9</province_id>
@@ -67,7 +67,7 @@
         <province_name>Prince Edward Island</province_name>
         <province_code>PE</province_code>
         <owner_id>20</owner_id>
-        <name>Jerome Gallant</name>
+        <owner_name>Jerome Gallant</name>
         <address>74 Summer St</address>
         <city>Summerside</city>
         <province_id>9</province_id>
