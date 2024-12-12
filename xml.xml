@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration_database>
+    <registration>
+        <province_id>9</province_id>
+        <province_name>Prince Edward Island</province_name>
+        <province_code>PE</province_code>
+        <owner_id>16</owner_id>
+        <name>Megan MacLeod</name>
+        <address>26 Maloney Dr</address>
+        <city>Charlottetown</city>
+        <postal_code>C1A 2L6</postal_code>
+        <vehicle_id>25</vehicle_id>
+        <vin>1VXBR12EXCP901237</vin>
+        <make>Toyota</make>
+        <model>Corolla</model>
+        <year>2020</year>
+    </registration>
+    <registration>
+        <province_id>9</province_id>
+        <province_name>Prince Edward Island</province_name>
+        <province_code>PE</province_code>
+        <owner_id>17</owner_id>
+        <name>Ryan MacKenzie</name>
+        <address>126 Spring Park Rd</address>
+        <city>Charlottetown</city>
+        <postal_code>C1A 3Y6</postal_code>
+        <vehicle_id>26</vehicle_id>
+        <vin>1VXBR12EXCP901238</vin>
+        <make>Honda</make>
+        <model>Civic</model>
+        <year>2019</year>
+    </registration>
+    <registration>
+        <province_id>9</province_id>
+        <province_name>Prince Edward Island</province_name>
+        <province_code>PE</province_code>
+        <owner_id>18</owner_id>
+        <name>Sandra MacDonald</name>
+        <address>9 Vail Dr</address>
+        <city>Charlottetown</city>
+        <province_id>9</province_id>
+        <postal_code>C1A 2L4</postal_code>
+        <vehicle_id>27</vehicle_id>
+        <vin>1VXBR12EXCP901239</vin>
+        <make>Ford</make>
+        <model>F-150</model>
+        <year>2021</year>
+    </registration>
+    <registration>
+        <province_id>9</province_id>
+        <province_name>Prince Edward Island</province_name>
+        <province_code>PE</province_code>
+        <owner_id>19</owner_id>
+        <name>Michael Murphy</name>
+        <address>62 Kirkwood Dr</address>
+        <city>Charlottetown</city>
+        <province_id>9</province_id>
+        <postal_code>C1A 2T9</postal_code>
+        <vehicle_id>28</vehicle_id>
+        <vin>1VXBR12EXCP901240</vin>
+        <make>Tesla</make>
+        <model>Model 3</model>
+        <year>2022</year>
+    </registration>
+    <registration>
+        <province_id>9</province_id>
+        <province_name>Prince Edward Island</province_name>
+        <province_code>PE</province_code>
+        <owner_id>20</owner_id>
+        <name>Jerome Gallant</name>
+        <address>74 Summer St</address>
+        <city>Summerside</city>
+        <province_id>9</province_id>
+        <postal_code>C1N 3H9</postal_code>
+        <vehicle_id>29</vehicle_id>
+        <vin>1VXBR12EXCP901241</vin>
+        <make>Nissan</make>
+        <model>Altima</model>
+        <year>2018</year>
+    </registration>
+</registration_database>

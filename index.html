@@ -1,0 +1,68 @@
+<html>
+    <head>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse:collapse;
+    }
+    th, td {
+      padding: 5px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1>Load XML Registrations for Prince Edward Island</h1>>
+    <table id="demo"></table>
+    
+    <script>
+    //function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "xml.xml", true);
+      xmlhttp.send();
+    //}
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>province_id</th><th>province_name</th><th>province_code</th><th>owner_id</th><th>name</th><th>address</th><th>city</th><th>postal_code</th><th>vehicle_id</th><th>vin</th><th>make</th><th>model</th><th>year</th></tr>";
+      var x = xmlDoc.getElementsByTagName("registration");
+      for (i = 0; i <x.length; i++) {
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("province_id")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("province_name")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("province_code")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("owner_id")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("city")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("postal_code")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("vehicle_id")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("vin")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("make")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("model")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+        x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script>
+    
+    </body>
+    </html> 
