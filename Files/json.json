@@ -1,59 +1,79 @@
 {
-    "vehicles": [
+    "registrations": [
         {
             "province_id": 11,
             "province_name": "Yukon",
             "province_code": "YT",
+            "owner_id": 21,
+            "owner_name": "Dan Diodoros",
+            "address": "207 Main St",
+            "city": "Whitehorse",
+            "postal_code": "Y1A 2B2",
             "vehicle_id": 30,
             "vin": "1VXBR12EXCP901242",
             "make": "Toyota",
             "model": "RAV4",
-            "year": 2020,
-            "owner_id": 21
+            "year": 2020
         },
         {
             "province_id": 11,
             "province_name": "Yukon",
             "province_code": "YT",
+            "owner_id": 22,
+            "owner_name": "Elvira Thompson",
+            "address": "897 Fourth Ave",
+            "city": "Dawson City",
+            "postal_code": "Y0B 0A3",
             "vehicle_id": 31,
             "vin": "1VXBR12EXCP901243",
             "make": "Honda",
             "model": "CR-V",
-            "year": 2019,
-            "owner_id": 22
+            "year": 2019
         },
         {
             "province_id": 11,
             "province_name": "Yukon",
             "province_code": "YT",
+            "owner_id": 23,
+            "owner_name": "Tom Harris",
+            "address": "156 Martin St",
+            "city": "Haines Junction",
+            "postal_code": "Y0B 1L0",
             "vehicle_id": 32,
             "vin": "1VXBR12EXCP901244",
             "make": "Ford",
             "model": "Escape",
-            "year": 2021,
-            "owner_id": 23
+            "year": 2021
         },
         {
             "province_id": 11,
             "province_name": "Yukon",
             "province_code": "YT",
+            "owner_id": 24,
+            "owner_name": "Amy Li",
+            "address": "2 Territorial Rd",
+            "city": "Ross River",
+            "postal_code": "Y0B 1S0",
             "vehicle_id": 33,
             "vin": "1VXBR12EXCP901245",
             "make": "Chevrolet",
             "model": "Silverado",
-            "year": 2022,
-            "owner_id": 24
+            "year": 2022
         },
         {
             "province_id": 11,
             "province_name": "Yukon",
             "province_code": "YT",
+            "owner_id": 25,
+            "owner_name": "Annika Gordon",
+            "address": "408 Tlingit Ave",
+            "city": "Carcross",
+            "postal_code": "Y0B 1B0",
             "vehicle_id": 34,
             "vin": "1VXBR12EXCP901246",
             "make": "Ram",
             "model": "1500",
-            "year": 2018,
-            "owner_id": 25
+            "year": 2018
         }
     ]
 }

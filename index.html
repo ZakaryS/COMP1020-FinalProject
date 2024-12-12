@@ -64,4 +64,46 @@
     </script>
     
     </body>
+    <body>
+      <h1>Load JSON Regirstrations for Yukon</h1>
+      <table id="demo2"></table>
+      <script>
+        fetch('Files/json.json')
+          .then(response => response.json())
+          .then(data => {
+            // Call function to display table
+            createTable(data.registrations);
+          })
+          .catch(error => console.error('Error:', error));
+        function createTable(data) {
+        const table = document.createElement('table');
+        const tableHead = document.createElement('thead');
+        const tableBody = document.createElement('tbody');
+
+        // Append the table head and body to table
+        table.appendChild(tableHead);
+        table.appendChild(tableBody);
+
+        // Creating table head
+        let row = tableHead.insertRow();
+        Object.keys(data[0]).forEach(key => {
+          let th = document.createElement('th');
+          th.textContent = key.toLowerCase();
+          row.appendChild(th);
+        });
+
+        // Creating table body
+        data.forEach(item => {
+          let row = tableBody.insertRow();
+          Object.values(item).forEach(value => {
+            let cell = row.insertCell();
+            cell.textContent = value;
+          });
+        });
+
+        // Append the table to the HTML document
+        document.getElementById('demo2').appendChild(table);
+      }
+      </script>
+    </body>
     </html> 

@@ -6,7 +6,7 @@ CREATE TABLE provinces (
 
 CREATE TABLE owners (
   owner_id INT PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
+  owner_name VARCHAR(50) NOT NULL,
   address VARCHAR(50) NOT NULL,
   city VARCHAR(30) NOT NULL,
   province_id INT NOT NULL,
@@ -52,7 +52,7 @@ VALUES
 (12, 'Northwest Territories', "NT"),
 (13, 'Nunavut', 'NU');
 
-INSERT INTO owners (owner_id, name, address, city, province_id, postal_code)
+INSERT INTO owners (owner_id, owner_name, address, city, province_id, postal_code)
 VALUES
 (1, 'Vernon Garfield', '123 Main St', 'Toronto', 1, 'M4E 2V9'),
 (2, 'Avril Menard', '930 Ave J J Joubert', 'Montreal', 2, 'H7G 4J3'),
@@ -68,12 +68,7 @@ VALUES
 (12, 'Lisa Lambert', '2831 Rue Rageot', 'Quebec City', 2, 'G1M 2L2'),
 (13, 'Shui Sung', '771 Harvey Ave', 'Kelowna', 3, 'V1Y 6E2'),
 (14, 'Jessica Patel', '1033 Victoria Ave', 'Windsor', 1, 'N9A 4N7'),
-(15, 'Yanick Archambault', '266 Rue Ball', 'Sherbrooke', 2, 'J1H 1V4'),
-(21, 'Dan Diodoros', '207 Main St', 'Whitehorse', 11, 'Y1A 2B2'),
-(22, 'Elvira Thompson', '897 Fourth Ave', 'Dawson City', 11, 'Y0B 0A3'),
-(23, 'Tom Harris', '156 Martin St', 'Haines Junction', 11, 'Y0B 1L0'),
-(24, 'Amy Li', '2 Territorial Rd', 'Ross River', 11, 'Y0B 1S0'),
-(25, 'Annika Gordon', '408 Tlingit Ave', 'Carcross', 11, 'Y0B 1B0');
+(15, 'Yanick Archambault', '266 Rue Ball', 'Sherbrooke', 2, 'J1H 1V4');
 
 INSERT INTO vehicles (vehicle_id, vin, make, model, year, province_id, owner_id)
 VALUES
