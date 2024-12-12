@@ -16,7 +16,6 @@
     <table id="demo"></table>
     
     <script>
-    //function loadXMLDoc() {
       var xmlhttp = new XMLHttpRequest();
       xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -25,7 +24,7 @@
       };
       xmlhttp.open("GET", "Files/xml.xml", true);
       xmlhttp.send();
-    //}
+
     function myFunction(xml) {
       var i;
       var xmlDoc = xml.responseXML;
@@ -36,27 +35,27 @@
         x[i].getElementsByTagName("province_id")[0].childNodes[0].nodeValue +
         "</td><td>" +
         x[i].getElementsByTagName("province_name")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("province_code")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("owner_id")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("city")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("postal_code")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("vehicle_id")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("vin")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("make")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("model")[0].childNodes[0].nodeValue +
-        "</td></tr>";
+        "</td></tr>" +
         x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +
         "</td></tr>";
       }
